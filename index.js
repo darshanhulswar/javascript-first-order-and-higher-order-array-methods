@@ -1,6 +1,4 @@
 // Vowels and Consonants Solved on Hackerrank
-const array = [23, 21, 42, 39, 56, 30, 24, 38, 45, 90, 23, 58];
-
 const vowels = ['a', 'e', 'i', 'o', 'u'];
 
 str = "javascriptloops";
