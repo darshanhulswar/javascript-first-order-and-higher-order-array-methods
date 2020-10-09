@@ -34,7 +34,7 @@ const ages = [23, 21, 21, 21, 21, 20, 20, 19, 17, 18, 42, 39, 56, 30, 24, 38, 45
 // console.log(ages.indexOf(19));
 
 // includes() - returns true if found otherwise returns false
-console.log(ages.includes(19999));
+// console.log(ages.includes(19999));
 
 // reverse() - destructing method reverses an array
 // console.log(ages.reverse());
