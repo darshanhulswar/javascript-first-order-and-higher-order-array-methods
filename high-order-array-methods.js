@@ -14,38 +14,38 @@ const companies = [
 
 const ages = [23, 21, 21, 21, 21, 20, 20, 19, 17, 18, 42, 39, 56, 30, 24, 38, 45, 90, 23, 58];
 
-// forEach()
+// forEach() - Loop throough an array in more elegant way
 // companies.forEach(function (company, index, companies) {
 //     console.log(company.name)
 // });
 
-// filter
+// filter() - returbs an array based on the callback functions logic
 // const canDrink = ages.filter(age => age >= 21);
 // console.log(canDrink);
 
-// every 
+// every() - checks every elements of an array passes the condition or not and returns true if passes all else false
 // console.log(ages.every(age => age >= 2));
 
-// find 
+// find() - returns first find in an array
 // let found = ages.find(element => element == 20);
 // console.log(found);
 
-// indexOf
+// indexOf() - returns index of an element within an array. If not found returns -1
 // console.log(ages.indexOf(19));
 
-// includes 
-// console.log(ages.includes(19));
+// includes() - returns true if found otherwise returns false
+console.log(ages.includes(19999));
 
-// reverse
+// reverse() - destructing method reverses an array
 // console.log(ages.reverse());
 
 // map() The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
 // console.log(ages.map(age => age - 2));
 
-// sort()
+// sort() - sprts an arrat based on UTF-16 unit values of an array element
 // console.log(ages.sort((age1, age2) => age1 - age2));
 
-// reduce()
+// reduce() - returns a single value based on the callback function
 // console.log(ages.reduce((ageTotal, age) => age + ageTotal));
 
 
