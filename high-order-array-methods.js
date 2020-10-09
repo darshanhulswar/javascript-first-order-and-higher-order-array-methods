@@ -43,5 +43,9 @@ const ages = [23, 21, 21, 21, 21, 20, 20, 19, 17, 18, 42, 39, 56, 30, 24, 38, 45
 // console.log(ages.map(age => age - 2));
 
 // sort()
-console.log(ages.sort((age1, age2) => age1 - age2));
+// console.log(ages.sort((age1, age2) => age1 - age2));
+
+// reduce()
+// console.log(ages.reduce((ageTotal, age) => age + ageTotal));
+
 
