@@ -14,6 +14,8 @@ const companies = [
 
 const ages = [23, 21, 21, 21, 21, 20, 20, 19, 17, 18, 42, 39, 56, 30, 24, 38, 45, 90, 23, 58];
 
+// Higher Order Array Methods
+
 // forEach() - Loop throough an array in more elegant way
 // companies.forEach(function (company, index, companies) {
 //     console.log(company.name)
@@ -30,15 +32,6 @@ const ages = [23, 21, 21, 21, 21, 20, 20, 19, 17, 18, 42, 39, 56, 30, 24, 38, 45
 // let found = ages.find(element => element == 20);
 // console.log(found);
 
-// indexOf() - returns index of an element within an array. If not found returns -1
-// console.log(ages.indexOf(19));
-
-// includes() - returns true if found otherwise returns false
-// console.log(ages.includes(19999));
-
-// reverse() - destructing method reverses an array
-// console.log(ages.reverse());
-
 // map() The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
 // console.log(ages.map(age => age - 2));
 
@@ -48,4 +41,15 @@ const ages = [23, 21, 21, 21, 21, 20, 20, 19, 17, 18, 42, 39, 56, 30, 24, 38, 45
 // reduce() - returns a single value based on the callback function
 // console.log(ages.reduce((ageTotal, age) => age + ageTotal));
 
+// -----------------------------------------------------------------------
 
+// First Order Array Methods
+
+// indexOf() - returns index of an element within an array. If not found returns -1
+// console.log(ages.indexOf(19));
+
+// includes() - returns true if found otherwise returns false
+// console.log(ages.includes(19999));
+
+// reverse() - destructing method reverses an array
+// console.log(ages.reverse());
